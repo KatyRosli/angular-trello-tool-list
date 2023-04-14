@@ -1,1 +1,15 @@
-<p>tools works!</p>
+<div class="container">
+    <h2>Tools List</h2>
+  
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let tool of operationList">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ tool.name }}</h5>
+            <p class="card-text">{{ tool.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
