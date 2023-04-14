@@ -14,4 +14,10 @@ export class TrelloApiService {
     const url = `https://api.trello.com/1/boards/${environment.trello.boardId}/lists?cards=open&card_fields=name&fields=name&key=${environment.trello.apiKey}&token=${environment.trello.apiToken}`;
     return this.http.get<any>(url);
   }
+
+  getTools(id: string): Observable<any> {
+    const url = `https://api.trello.com/1/lists/${id}/cards?key=${environment.trello.apiKey}&token=${environment.trello.apiToken}`
+    return this.http.get<any>(url);
+  }
+
 }

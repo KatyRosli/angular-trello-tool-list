@@ -6,5 +6,6 @@ export interface Operations {
 }
 
 export interface Tools {
+    id: string;
     name: string;
 }

@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OperationsComponent } from './components/operations/operations.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ToolsComponent } from './tools/tools.component';
+import { ToolsComponent } from './components/tools/tools.component';
 
 
 @NgModule({
