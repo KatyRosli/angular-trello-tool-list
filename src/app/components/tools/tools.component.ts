@@ -19,7 +19,6 @@ export class ToolsComponent {
   ngOnInit() {
     this.trelloApiService.getTools(this.id).subscribe(data => {
       this.toolCard = data;
-      console.log('ya', this.id)
     });
   }
 }
