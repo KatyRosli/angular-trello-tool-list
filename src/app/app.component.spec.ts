@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-trello-tool-list'`, () => {
+  it(`should have as title 'angular-trello-operation-list'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-trello-tool-list');
+    expect(app.title).toEqual('angular-trello-operation-list');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-trello-tool-list app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-trello-operation-list app is running!');
   });
 });

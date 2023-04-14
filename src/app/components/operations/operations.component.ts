@@ -2,19 +2,19 @@ import { Component } from '@angular/core';
 import { TrelloApiService } from 'src/app/services/trello-api.service';
 
 @Component({
-  selector: 'app-tools',
-  templateUrl: './tools.component.html',
-  styleUrls: ['./tools.component.scss']
+  selector: 'app-operations',
+  templateUrl: './operations.component.html',
+  styleUrls: ['./operations.component.scss']
 })
 
-export class ToolsComponent {
+export class OperationsComponent {
   operationList: any[] = [];
 
   constructor(private trelloApiService: TrelloApiService) { 
   }
 
   ngOnInit() {
-    this.trelloApiService.getTools().subscribe(data => {
+    this.trelloApiService.getOperations().subscribe(data => {
       this.operationList = data;
     });
   }

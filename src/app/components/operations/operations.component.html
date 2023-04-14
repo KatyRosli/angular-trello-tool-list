@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Operations List</h2>
+
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let operation of operationList">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ operation.name }}</h5>
+          <p class="card-text">{{ operation.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
