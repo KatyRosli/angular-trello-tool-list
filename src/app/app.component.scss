@@ -1,0 +1,8 @@
+@import '../styles.scss';
+
+.page-header__title {
+    font-family: $font-header;
+    font-weight: 800;
+    font-size: 40;
+    color: $main-text-color;
+}

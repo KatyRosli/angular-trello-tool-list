@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+$font-header: 'Merriweather';
+$font-body: 'Mulish';
+$primary-color: #7B6DEB;
+$secondary-color: #83B3FD;
+$main-text-color: #2A2E34;
+$supporting-text-color: #666F7D;
+$main-background-color: #FAFBFC;
+$supporting-background-color: #FBFBFB;
+
+body {
+    background-color: $main-background-color;
+}

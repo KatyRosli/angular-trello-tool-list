@@ -19,7 +19,10 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "ngx-bootstrap": "^10.2.0",
     "rxjs": "~7.8.0",
+    "scss-scaffold": "^0.0.5",
     "trello-client": "^1.0.12",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -32,6 +35,7 @@
     "@types/jest": "^29.5.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.11",
+    "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
@@ -39,6 +43,9 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
     "typescript": "~4.9.4"
   }
 }

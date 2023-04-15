@@ -1,13 +1,15 @@
-<div class="container">
-  <h2>Operations List</h2>
+<div class="operation-page__container">
+  <h2 class="operation-page__title">Operations List:</h2>
+</div>
 
-  <div class="row">
-    <div class="col-sm-4" *ngFor="let operation of operationList">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{{ operation.name }}</h5>
-          <p class="card-text">{{ operation.description }}</p>
-          <app-tools [id]="operation.id"></app-tools>
+<div class="operation-list__container">
+  <div class="operations-list__row">
+    <div class="operations-list__col-sm" *ngFor="let operation of operationList">
+      <div class="operations-list__card card">
+          <h5 class="operations-list__card-header card-header">{{ operation.name }}</h5>
+          <div class="operations-list__card-body card-body">
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <app-tools class="operations-list__tools"[id]="operation.id"></app-tools>
         </div>
       </div>
     </div>
