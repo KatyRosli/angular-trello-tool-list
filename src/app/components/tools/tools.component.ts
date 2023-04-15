@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { TrelloApiService } from 'src/app/services/trello-api.service';
+import { TrelloApiService } from 'app/services/trello-api.service';
 
 @Component({
   selector: 'app-tools',
@@ -17,7 +17,7 @@ export class ToolsComponent {
   }
 
   ngOnInit() {
-    this.trelloApiService.getTools(this.id).subscribe(data => {
+    this.trelloApiService.getTools(this.id).subscribe((data: any[]) => {
       this.toolCard = data;
     });
   }

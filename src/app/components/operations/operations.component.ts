@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TrelloApiService } from 'src/app/services/trello-api.service';
+import { TrelloApiService } from 'app/services/trello-api.service';
 
 @Component({
   selector: 'app-operations',
