@@ -5,6 +5,14 @@
     font-weight: 600;
     font-size: 16px;
     color: $main-text-color;
+    padding-top: 24px;
+}
+
+.operations-list__card {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: $main-background-color;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .operations-list__card-header {
@@ -19,6 +27,7 @@
 
 .operations-list__card-body {
     background-color: $supporting-background-color;
+    border-radius: 8px;
 }
 
 @media (min-width: 320px) {

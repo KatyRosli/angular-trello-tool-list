@@ -13,6 +13,7 @@ $main-text-color: #2A2E34;
 $supporting-text-color: #666F7D;
 $main-background-color: #FAFBFC;
 $supporting-background-color: #FBFBFB;
+$tertiary-color: #C1C1C1;
 
 body {
     background-color: $main-background-color;
@@ -20,18 +21,27 @@ body {
 
 @media (min-width: 320px) {
     body {
-      padding: 16px;
+      padding-top: 56px;
+      padding-left: 16px;
+      padding-bottom: 88px;
+      padding-right: 16px;
     }
 }
 
 @media (min-width: 768px) {
   body {
-    padding: 24px;
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-bottom: 112px;
+    padding-right: 24px;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    padding: 176px;
+    padding-top: 56px;
+    padding-left: 176px;
+    padding-bottom: 112px;
+    padding-right: 176px;
   }
 }
