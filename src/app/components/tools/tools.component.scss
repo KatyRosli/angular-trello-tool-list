@@ -1,8 +1,17 @@
 @import '../../../styles.scss';
 
-.tool-card__card-title {
+ .tool-card__card-title {
     font-family: $font-body;
     font-weight: 600;
     font-size: 16px;
     color: $main-text-color;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 320px) {
+    .tool-card__card {
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
 }

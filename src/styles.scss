@@ -17,3 +17,21 @@ $supporting-background-color: #FBFBFB;
 body {
     background-color: $main-background-color;
 }
+
+@media (min-width: 320px) {
+    body {
+      padding: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 176px;
+  }
+}
