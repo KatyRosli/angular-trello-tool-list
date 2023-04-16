@@ -5,7 +5,7 @@ A fictive company produce parts for the automotive industry. The task is to buil
 
 An existing Trello workspace will act as backend. Expectation is that the Angular
 frontend should read (read-only) data using Trello API. This workspace consists of one board:
-o Tools - Contains available tools categorized by operation type.
+- Tools - Contains available tools categorized by operation type.
 
 ## Live Demo
 [Live Demo Link] (https://angulartoollist.web.app/)
@@ -17,6 +17,9 @@ FRONTEND:
 - HTML
 - SCSS
 - Figma
+
+DEPLOYMENT:
+- Firebase
 
 ## Things to improve:
 1) Sort function
