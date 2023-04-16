@@ -11,7 +11,7 @@ import { Operations } from '../../models/data.interface';
 export class SearchComponent {
   @Input()
   operationsList: Operations[] = [];
-  @Output() onSearchPressed = new EventEmitter<any>();
+  @Output() onSearchPressed = new EventEmitter<string>();
   filteredOperations: Operations[] = [];
   searchQuery = '';
 
@@ -23,9 +23,6 @@ export class SearchComponent {
 
   onSearch() {
     const searchText = this.searchQuery.toLowerCase();
-    // this.filteredOperations = this.operationsList.filter(operation =>
-    //   operation.name.toLowerCase().includes(searchText)
-    // );
     this.onSearchPressed.emit(searchText);
   }
 }
