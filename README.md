@@ -1,10 +1,29 @@
-# AngularTrelloToolList
+# AngularTrelloToolList ⚒️:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+The project:
+A fictive company produce parts for the automotive industry. The task is to build a simple frontend that list available tools for given operation.
 
+An existing Trello workspace will act as backend. Expectation is that the Angular
+frontend should read (read-only) data using Trello API. This workspace consists of one board:
+o Tools - Contains available tools categorized by operation type.
 
 ## Live Demo
 [Live Demo Link] (https://angulartoollist.web.app/)
+
+## Build with ⚒️:
+FRONTEND:
+- Angular
+- TypeScript
+- HTML
+- SCSS
+- Figma
+
+## Things to improve:
+1) Sort function
+2) Nav bar or side nav
+3) Footer
+4) Authentication (login)
+5) Router (add more pages)
 
 ## Development server
 
@@ -21,3 +40,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+# Author:
+👩 **Katy Rosli**
+- GitHub: [@KatyRosli](https://github.com/KatyRosli)
+
+# Show your support:
+Give a ⭐️ if you like this project!
+
+Thank you!

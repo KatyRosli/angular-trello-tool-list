@@ -18,34 +18,4 @@
       </div>
     </div>
   </div>
-
-<!-- <div class="operation-list__container">
-<cdk-accordion class="operations-list__row">
-  <cdk-accordion-item
-    *ngFor="let operation of operationList; let index = index"
-    #accordionItem="cdkAccordionItem"
-    class="operations-list__col-sm"
-    role="button"
-    tabindex="0"
-    [attr.id]="'accordion-header-' + index"
-    [attr.aria-expanded]="accordionItem.expanded"
-    [attr.aria-controls]="'accordion-body-' + index">
-    <div class="operations-list__card card" (click)="accordionItem.toggle()">
-      <h5 class="operations-list__card-header card-header">{{ operation.name }}</h5>
-      <span class="btn btn-link">
-        Click to {{ accordionItem.expanded ? 'close' : 'open' }}
-      </span>
-    </div>
-    <div
-      class="operations-list__card-body card-body"
-      role="region"
-      [style.display]="accordionItem.expanded ? '' : 'none'"
-      [attr.id]="'accordion-body-' + index"
-      [attr.aria-labelledby]="'accordion-header-' + index">
-      <h5 class="operations-list__card-label card-label">Tools:</h5>
-      <app-tools class="operations-list__tools"[id]="operation.id"></app-tools>
-    </div>
-  </cdk-accordion-item>
-</cdk-accordion>
-</div> -->
   
