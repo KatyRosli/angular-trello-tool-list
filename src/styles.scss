@@ -19,29 +19,30 @@ body {
     background-color: $main-background-color;
 }
 
+@mixin theme($theme: Button) {
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: solid;
+  padding: 4px 8px;
+  font-family: $font-body;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 @media (min-width: 320px) {
-    body {
-      padding-top: 56px;
-      padding-left: 16px;
-      padding-bottom: 88px;
-      padding-right: 16px;
-    }
+  body {
+    padding: 56px 16px 88px 16px;
+  }
 }
 
 @media (min-width: 768px) {
   body {
-    padding-top: 88px;
-    padding-left: 24px;
-    padding-bottom: 112px;
-    padding-right: 24px;
+    padding: 88px 24px 112px 24px;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    padding-top: 56px;
-    padding-left: 176px;
-    padding-bottom: 112px;
-    padding-right: 176px;
+    padding: 56px 176px 112px 176px;
   }
 }

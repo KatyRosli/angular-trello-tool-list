@@ -1,0 +1,17 @@
+@import '../../../styles.scss';
+
+.search {
+    margin: 16px 0 16px 0;
+}
+
+.search__input {
+    padding: 4px 8px;
+}
+
+.search__button {
+    @include theme($theme: Button);
+    border-color: $secondary-color;
+    background-color: $main-background-color;
+    color: $secondary-color;
+    margin: 0 0 0 16px;
+}

@@ -3,12 +3,23 @@
 .page-header__title {
     font-family: $font-header;
     font-weight: 600;
-    font-size: 24px;
     color: $main-text-color;
 }
 
 @media (min-width: 320px) {
     .page-header__title {
         font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-header__title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-header__title {
+        font-size: 24px;
     }
 }
