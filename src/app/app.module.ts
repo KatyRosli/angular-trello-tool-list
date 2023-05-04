@@ -8,7 +8,6 @@ import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { SearchComponent } from './components/search/search.component';
 import { FormsModule } from '@angular/forms';
 
-
 @NgModule({
   declarations: [
     AppComponent,
