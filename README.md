@@ -21,6 +21,9 @@ FRONTEND:
 DEPLOYMENT:
 - Firebase
 
+## Passed all written test:
+- ![screenshot](./src/assets/images/AngularTestingFrameworkJasmine.png)
+
 ## Things to improve:
 1) Sort function
 2) Nav bar or side nav
