@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { TrelloApiService } from 'app/services/trello-api.service';
 import { Operations } from '../../models/data.interface';
 
